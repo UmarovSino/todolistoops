@@ -1,0 +1,194 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section {
+
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.tarafirost {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    place-items: center;
+
+
+}
+
+.list {
+    margin-top: 50px;
+}
+
+.Todo {
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(15, 54, 15);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.add {
+    font-size: 50px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: 800px;
+}
+
+.tarafichap {
+
+    width: 900px;
+
+}
+
+.trchap {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.addDialog {
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 600px;
+    height: 400px;
+
+}
+
+.getbyIds {
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 600px;
+    height: 400px;
+
+}
+
+.editDialog {
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 600px;
+    height: 400px;
+
+}
+
+.xclose {
+    border: none;
+    background-color: white;
+    outline: none;
+    font-size: 30px;
+
+
+}
+
+.editxclose {
+    border: none;
+    background-color: white;
+    outline: none;
+    font-size: 30px;
+}
+
+.modaldiv {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.addForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+    place-self: center;
+}
+
+.editForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+    place-self: center;
+}
+
+input {
+    height: 40px;
+}
+
+.addSelect {
+    width: 70px;
+    background-color: rgb(150, 150, 184);
+    color: white;
+}
+
+.editSelect {
+    width: 70px;
+    background-color: rgb(150, 150, 184);
+    color: white;
+}
+
+label {
+    font-weight: bolder;
+}
+
+.save {
+    width: 70px;
+    height: 30px;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.close {
+    width: 70px;
+    height: 30px;
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    border-radius: 5px;
+}
+
+.savebutton {
+    display: flex;
+    gap: 10px;
+}
+
+
+.idd{
+    margin-top: 100px;
+    margin-left: 220px;
+}
+.idds{
+    margin-top: 20px;
+    margin-left: 110px;
+
+}
+
+.coseget{
+    margin-top: 30px;
+    margin-left: 240px;
+    width: 70px;
+    height: 30px;
+    border: 1px solid blue;
+    color: blue;
+    border-radius: 5px;
+   
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

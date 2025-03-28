@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+
+<body>
+
+    <div class="box">
+        <section class="section">
+            <aside class="tarafirost">
+                <h1 class="Todo">TODO </h1>
+                <div class="list">
+                    <input type="text" class="search">
+                    <select  class="selectstatus">
+                        <option value="all">All</option>
+                        <option value="true">active</option>
+                        <option value="false">inactive</option>
+
+                    </select>
+                </div>
+            </aside>
+            <aside class="tarafichap">
+                <button class="add">+</button>
+                <div class="trchap"></div>
+            </aside>
+        </section>
+        <dialog class="addDialog">
+            <div class="modaldiv">
+                <h1>Task</h1>
+                <button class="xclose">x</button>
+            </div>
+
+            <form action="" class="addForm">
+                <label for="text">title</label>
+                <input type="text" placeholder="text" name="addtext">
+                <label for="text">Description</label>
+                <input type="text" placeholder="text" name="addtext1">
+                <select name="addSelect" id="" class="addSelect">
+                    <option value="true">active</option>
+                    <option value="false">inactive</option>
+                </select>
+                <div class="savebutton">
+                    <button type="submit" class="save">save</button>
+                    <button class="close">cansel</button>
+                </div>
+
+            </form>
+
+        </dialog>
+
+        <dialog class="editDialog">
+            <div class="modaldiv">
+                <h1>Task</h1>
+                <button class="editxclose">x</button>
+            </div>
+
+            <form action="" class="editForm">
+                <label for="text">title</label>
+                <input type="text" placeholder="text" name="edittext">
+                <label for="text">Description</label>
+                <input type="text" placeholder="text" name="edittext1">
+                <select name="" id="" class="editSelect">
+                    <option value="true">active</option>
+                    <option value="false">inactive</option>
+                </select>
+                <div class="savebutton">
+                    <button type="submit" class="save">save</button>
+                    <button class="editclose">cansel</button>
+                </div>
+
+            </form>
+
+        </dialog>
+    </div>
+
+<dialog class="getbyIds">
+    <h2 class="idd"></h2>
+    <h2 class="idds"></h2>
+    <button class="coseget">close</button>
+</dialog>
+
+    <script src="./js.js"></script>
+</body>
+
+</html>
